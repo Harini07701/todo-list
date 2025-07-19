@@ -1,0 +1,45 @@
+/* Background Gradient */
+.bg-gradient {
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+}
+
+/* Card Styling */
+.form-card {
+    width: 400px;
+    border-radius: 15px;
+    animation: slideUp 0.8s ease-in-out;
+}
+
+/* Input Styling */
+.input-custom {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Button Styling */
+.custom-btn {
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Links */
+.link-custom {
+    text-decoration: none;
+    color: #4e73df;
+    font-weight: bold;
+}
+
+.link-custom:hover {
+    text-decoration: underline;
+}
+
+/* Animation */
+@keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
